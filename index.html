@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang = "en">
+<!--This is the webpage for band machi-->
+
+  <head>
+    <meta charset = "utf-8">
+    <title> Band machi </title>
+    <meta name="description" content="Indie band machi based on Seoul, South Korea">
+    <meta name="author" content="Sun Min Lee">
+
+  <!-- Mobile React -->
+    <meta name="viewpoint" content="width=device-width, initial=scale=1, user-scalable=no">
+
+  <!-- CSS -->
+    <link rel="stylesheet" href="css/main.css">
+    <noscript><link rel="stylesheet" href="css/noscript.css"></noscript>
+
+  <!-- background -->
+    <bgsound src="bgm/242.mp3" loop="Infinite"></bgsound>
+
+  </head>
+
+  <body class="is-preload">
+    <div id="wrapper">
+      <div id="bg"></div>
+      <div id="overlay"></div>
+      <div id="main">
+        <!-- header -->
+        <header id ="header">
+          <h1><a href="index.html" class="logo"><span class="label">MACHI</span></a></h1>
+          <nav>
+            <ul>
+              <li><a href="album.html" class="icon solid fa-compact-disc"><span class="label">Album</span></a></li>
+              <li><a href="history.html" class="icon solid fa-info-circle"><span class="label">History</span></a></li>
+              <li><a href="http://instagram.com/band_machi" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+              <li><a href="http://youtube.com/machi" class="icon brands fa-youtube"><span class="label">Youtube</span></a></li>
+              <li><a href="http://soundcloud.com/cola-shaker" class="icon brands fa-soundcloud"><span class="label">Soundcloud</span></a></li>
+							<li><a href="mailto:aoshiori12@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+            </ul>
+          </nav>
+        </header>
+
+          <!--footer-->
+        <footer id="Footer">
+          <span class="copyright">&copy; BAND MACHI. Design: html5up. Modify: <a href="http://sunminkr.github.io">Sun Min Lee</a></span>
+        </footer>
+      </div>
+    </div>
+    <script>
+      window.onload = function() { document.body.classList.remove('is-preload'); }
+      window.ontouchmove = function() { return false; }
+      window.onorientationchange = function() { document.body.scrollTop = 0; }
+    </script>
+  </body>
+</html>
