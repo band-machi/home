@@ -129,6 +129,11 @@ input, select, textarea {
 		}
 
 /* Icon */
+	.logo {
+		max-width : 100%;
+		height : auto;
+		position: relative;
+	}
 
 	.icon {
 		text-decoration: none;
@@ -148,7 +153,7 @@ input, select, textarea {
 			font-weight: 400;
 		}
 
-		.icon > .label {
+		.icon > .logo {
 			display: none;
 		}
 
